@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="Description" content="Lab 14 work" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Client Info</h1>
+        <p><a href="clients.html">Go to Page 2</a></p>
+        <p>Use the form below to entr a new client, their name will appear in the list below</p>
+        <p>Once you have made a new client navigate to page 2 and click the button to see the client on that page</p>
+    </header>
+    <main>
+        <form id="client"></form>
+        <fieldset>
+            <legend>New Client Form</legend>
+            <label>
+                <input type="text" name="Name" required>
+            </label>
+            <button type="submit">Submit client info</button>
+        </fieldset>
+    </form>
+    <h2>Client List</h2>
+    <ul id="clientlist"></ul>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+    <script src="app1.js"></script>
+  </body>
+</html>
