@@ -1,4 +1,19 @@
-* {
+#one {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: beige;
   color: navy;
+}
+
+#two {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: navy;
+  color: beige;
+}
+
+#one a {
+  color: red;
+}
+
+#two a {
+  color: yellow;
 }
