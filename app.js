@@ -4,7 +4,7 @@ console.log("strict");
 const clientForm = document.getElementById("clientForm");
 const clientList = document.getElementById("clientList");
 
-//create new instanc eof client with cf
+//create new instanc of client with cf and creating an array for clint to go into
 
 const allClients = [];
 
