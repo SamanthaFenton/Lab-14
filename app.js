@@ -16,3 +16,11 @@ function Client(name) {
     clientList.appendChild(listItem);
   };
 }
+
+function handleClientSubmit() {
+  event.preventDefault();
+  const newClient = newClient(event.target.Name.value);
+  allClients.push("newCat");
+  clientForm.reset();
+  newClient.render();
+}
